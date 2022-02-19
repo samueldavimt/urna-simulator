@@ -43,7 +43,7 @@ function mostrar_cardsCandidatos(){
         card.appendChild(numero_candidato)
 
         container_cards.appendChild(card)
-        document.querySelector('#titulo-cards').innerHTML = `Candidatos á ${etapa.titulo}`
+        document.querySelector('#titulo-cards').innerHTML = `Candidatos a ${etapa.titulo}(a)`
 
     }
 
